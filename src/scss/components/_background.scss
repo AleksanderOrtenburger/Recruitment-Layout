@@ -1,0 +1,39 @@
+.page-background{
+width: 100vw;
+  height: 100vh;
+  background-blend-mode: darken;
+  background-image: url("../assets/bg_image.jpg");
+background-size: auto 155%;
+  background-repeat: no-repeat;
+  background-position: 60.5% 45%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+}
+@media only screen and (min-width: 1024px) {
+  .page-background{
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-image: url("../assets/bg_image.jpg");
+    background-size: 193% 170%;
+    background-repeat: no-repeat;
+    background-position: 66% 35%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+  }
+
+}
+@media only screen and (min-width: 1440px) {
+  .page-background{
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-image: url("../assets/bg_image.jpg");
+    background-size: 182% 190%;
+    background-repeat: no-repeat;
+    background-position: 68% 34%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+
+  }
+}

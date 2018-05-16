@@ -1,0 +1,93 @@
+.site-triangle{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 12.3%;
+}
+.triangle {
+  width: 4em;
+  height: 2em;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+
+
+}
+.triangle-plus{
+  font-size: 1em;
+  display: flex;
+  height: 1em;
+  align-self: center;
+
+  color: black;
+
+}
+.triangle-more{
+  display: none;
+}
+@media only screen and (min-width: 1024px){
+  .site-triangle{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10.7%;
+  }
+  .triangle {
+    width: 6.4em;
+    height: 3.2em;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+
+  }
+  .triangle-plus{
+   display: none;
+
+  }
+  .triangle-more{
+    display: flex;
+    align-self: center;
+    font-size: 0.7em;
+
+  }
+
+}
+@media only screen and (min-width: 1440px){
+  .site-triangle{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 11.2%;
+  }
+  .triangle {
+    width: 8.8em;
+    height: 4.4em;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+
+  }
+  .triangle-plus{
+    display: none;
+
+  }
+  .triangle-more{
+    display: flex;
+    align-self: center;
+    font-size: 0.8em;
+
+  }
+
+
+}

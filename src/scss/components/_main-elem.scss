@@ -1,0 +1,70 @@
+.main-elem{
+ width: 100%;
+  height: 16.5%;
+
+
+
+}
+.main-elem-object{
+  display: flex;
+  justify-content: center;
+
+
+}
+.main-elem-object object{
+  height: 3%;
+  width: 4em;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+
+
+}
+image{
+ cursor: pointer;
+  display: none;
+}
+.translated{
+  transform: rotate(360deg);
+}
+@media only screen and (min-width: 1024px){
+  .main-elem{
+    width: 100%;
+    height: 20%;
+
+
+
+  }
+  .main-elem-object{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+
+  }
+  .main-elem-object object{
+    height: 72%;
+    width: 8%;
+  }
+
+}
+@media only screen and (min-width: 1440px){
+  .main-elem{
+    width: 100%;
+    height: 20%;
+
+
+
+  }
+  .main-elem-object{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+
+  }
+  .main-elem-object object{
+    height: 78%;
+    width: 7%;
+  }
+
+}

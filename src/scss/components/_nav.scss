@@ -1,0 +1,284 @@
+.page-header{
+  height: 14%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+.nav-with-adjustment{
+height: 100%;
+  width: 93%;
+}
+.page-mobile-nav{
+
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+
+
+
+
+}
+.logo{
+  width: 45%;
+
+  display: flex;
+justify-content: center;
+  height: 100%;
+}
+.logo img{
+  width: 7em;
+  height: 45%;
+  align-self: center;
+}
+.hamburger{
+  width: 29%;
+  display: flex;
+  justify-content: flex-end;
+}
+.hamburger img{
+  width: 28px;
+  height: 22px;
+}
+.page-nav{
+  display: none;
+}
+@media only screen and (min-width: 1024px) {
+  .page-header{
+    height: 18%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+
+  }
+  .nav-with-adjustment{
+    height: 100%;
+    width: 92.5%;
+    display: flex;
+  }
+  .page-mobile-nav{
+
+    height: 100%;
+    width: 52%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+
+
+
+  }
+  .logo{
+    width: 30%;
+
+    display: flex;
+    justify-content: flex-start;
+
+    height: 100%;
+  }
+  .logo img{
+    width: 165px;
+    height: 55%;
+    align-self: center;
+  }
+  .hamburger{
+
+    display: none;
+
+  }
+  .hamburger img{
+    width: 28px;
+    height: 22px;
+  }
+  .page-nav{
+    display: flex;
+    width: 50%;
+
+  }
+  .page-nav-list{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding: 0;
+    height: 100%;
+
+  }
+  .page-nav-list a {
+    height: 90%;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.7em;
+    transition: 1s all;
+
+     }
+  .page-nav-list li:last-child {
+    padding-left: 9px;
+    border: 2px solid #ffffff;
+   border-radius: 1%;
+    margin-top: 46px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 6px;
+
+    transition: 1s all;
+
+
+
+  }
+  .page-nav-list li{
+    margin-top: 46px;
+    margin-bottom: 60px;
+
+
+
+
+
+  }
+  .page-nav-list li:after{
+
+
+    border-bottom: #ffffff 2px solid;
+    display: block;
+    content: "";
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    padding: 0 0 .5rem 0;
+  }
+  .page-nav-list li:hover:after{
+    transform: scaleX(1);
+  }
+  .page-nav-list li:last-child:hover{
+
+    background-color: white;
+    a{
+      color: black;
+    }
+
+  }
+  .page-nav-list li:last-child:hover:after{
+    transform: scale(0);
+  }
+
+
+
+}
+@media only screen and (min-width: 1440px) {
+  .page-header{
+    height: 18%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+
+  }
+  .nav-with-adjustment{
+    height: 100%;
+    width: 89%;
+    display: flex;
+  }
+  .page-mobile-nav{
+
+    height: 100%;
+    width: 57%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+
+
+
+  }
+  .logo{
+    width: 30%;
+
+    display: flex;
+    justify-content: flex-start;
+
+    height: 100%;
+  }
+  .logo img{
+    width: 210px;
+    height: 55%;
+    align-self: center;
+  }
+  .hamburger{
+
+    display: none;
+
+  }
+  .hamburger img{
+    width: 28px;
+    height: 22px;
+  }
+  .page-nav{
+    display: flex;
+    width: 46%;
+
+  }
+  .page-nav-list{
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+  }
+  .page-nav-list a {
+    height: 90%;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+    transition: 1s all;
+    letter-spacing: -0.01em;
+
+
+
+  }
+  .page-nav-list li:last-child {
+
+    border: 2px solid #ffffff;
+    border-radius: 12%;
+    margin-top: 48px;
+    margin-bottom: 70px;
+    margin-left: 26px;
+    margin-right: 0px;
+    padding-left: 10.983;
+    padding-right: 4px;
+    padding-left: 1px;
+    transition: 1s all;
+
+
+
+  }
+  .page-nav-list li{
+    margin-top: 46px;
+    margin-bottom: 60px;
+
+
+
+  }
+
+  .page-nav-list li:last-child:hover{
+
+    background-color: white;
+    a{
+      color: black;
+    }
+
+  }
+
+
+}
