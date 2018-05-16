@@ -1,6 +1,6 @@
 # Recrutiment-Layout
-This layout was one of recruitment tasks to software house . Made using:
-*HTML5
+This layout was one of recruitment tasks to software house . 
+It was made using: *HTML5
 *CSS3
 *React.JS
 *SASS
